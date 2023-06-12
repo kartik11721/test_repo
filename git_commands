@@ -1,0 +1,34 @@
+Git Commands
+
+1. git init
+This command initializes a repository in the current working directory locally
+syntax: git init
+
+2. git clone
+This comand clones and downloads a pre-existing repository on github to the current working directory
+syntax: git clone <url>
+example: git clone https://github.com/kartik11721/test_repo
+
+3. git status
+This command checks for any differences between the master branch to the current committed file
+syntax: git status
+
+4. git commit
+This command records the changes in the repository
+syntax: git commit
+example: git commit -m "Commit Message"
+
+5. git add
+This command prepares the content for the next commit
+syntax: git add <file_name>
+example: git add . (where . represents all files in directory)
+	 git add README.md
+	 
+5. git push
+This command is used to transfer the changes from the local commit to the remote reposotory
+syntax: git push
+
+6. git pull
+This command is used to transfer the changes from the remote reposotory ( on github ) to the local directory
+syntax: git pulll
+
