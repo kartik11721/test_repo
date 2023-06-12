@@ -30,5 +30,5 @@ syntax: git push
 
 6. git pull
 This command is used to transfer the changes from the remote reposotory ( on github ) to the local directory
-syntax: git pulll
+syntax: git pull
 
